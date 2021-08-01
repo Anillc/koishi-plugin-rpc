@@ -6,7 +6,7 @@
   "author": "anillc",
   "license": "MIT",
   "files": [
-    "lib"
+    "lib/"
   ],
   "scripts": {
     "build": "coffee -o lib -c src"
