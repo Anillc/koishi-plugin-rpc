@@ -1,12 +1,14 @@
 {
   "name": "koishi-plugin-rpc",
   "version": "1.0.0",
-  "main": "lib/index.js",
   "repository": "https://github.com/Anillc/koishi-plugin-rpc.git",
+  "main": "lib/index.js",
+  "typings": "types/index.d.ts",
   "author": "anillc",
   "license": "MIT",
   "files": [
-    "lib/"
+    "lib/",
+    "types"
   ],
   "scripts": {
     "build": "coffee -o lib -c src"
@@ -18,7 +20,7 @@
     "koishi-core": "^3.13.0"
   },
   "dependencies": {
-    "arpc": "^1.0.2",
+    "arpc": "^1.0.5",
     "socket.io": "^4.1.3"
   }
 }
