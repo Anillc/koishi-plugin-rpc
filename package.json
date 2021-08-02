@@ -20,7 +20,7 @@
     "koishi-core": "^3.13.0"
   },
   "dependencies": {
-    "arpc": "^1.0.5",
+    "arpc": "^1.0.6",
     "socket.io": "^4.1.3"
   }
 }
